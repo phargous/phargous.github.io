@@ -54,7 +54,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .section-flex img {
@@ -75,7 +75,7 @@ nav a:hover {
 /* BACKGROUND SEPARATOR IMAGE */
 
 .separator {
-    height: 300px;
+    height: 100px;
     background-size: cover;
     background-position: center;
 }
