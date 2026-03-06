@@ -88,3 +88,51 @@ nav a:hover {
     padding: 50px;
     text-align: center;
 }
+
+
+/* Publications */
+.pub-card{
+background:#f2f2f2;
+border:1px solid #ccc;
+padding:18px;
+margin-bottom:20px;
+box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pub-card summary{
+display:flex;
+justify-content:space-between;
+align-items:center;
+cursor:pointer;
+list-style:none;
+}
+
+.pub-text{
+flex:1;
+}
+
+.arrow{
+font-size:18px;
+color:#888;
+transition:transform 0.2s;
+}
+
+.pub-card[open] .arrow{
+transform:rotate(90deg);
+}
+
+.pub-extra{
+margin-top:15px;
+}
+
+.abstract-title{
+font-weight:bold;
+margin-bottom:5px;
+}
+
+.pub-figure{
+max-width:500px;
+width:100%;
+margin-top:10px;
+border-radius:6px;
+}
